@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.putovanja{
+
+    margin: 20px;
+    padding: 40px;
+
+}
+
+.putovanja a{
+    color: #343a40;
+}
+
+.put{
+    background-color: #fed136;
+    margin: 30px;
+    padding: 30px;
+    height: 200px;
+    box-shadow: 5px 8px #343a40;
+}
+
+.put:hover{
+    background-color: #e6b301;
+    border: inset;
+    border-color: #343a40;
+    
+}
+
+.put img{
+    height: 150px;
+    width: 150px;
+    float: left;
+
+}
+
+.put h4{
+    float: right;
+}
+.put p{
+    float: right;
+}

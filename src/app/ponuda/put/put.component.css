@@ -1,0 +1,21 @@
+.put{
+    text-align: center;
+}
+
+.naslov{
+    color:  #fed136;
+}
+
+.put img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 1px solid #343a40;
+    box-shadow: 5px 8px #343a40;
+}
+
+.pasus{
+    text-align: justify;
+    padding: 0px 230px;
+}

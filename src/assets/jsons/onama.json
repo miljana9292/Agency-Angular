@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "slika": "assets/assets/img/about/1.jpg",
+        "godina": "2009-2011",
+        "naslov": "Naš skromni početak",
+        "opis": "Istorija M&M-a datira još od početka 2009-te godine kada su osnivači bili na početku svojih studentskih dana. Tada su uvideli da ne postoji dosledna organizacija koja se isključivo bavi omladinskim turizmom i počeli su da iz hobija i ljubavi prema putovanjima organizuju za svoje prijatelje kreativna, originalna i jeftina putovanja."
+    },
+    {
+        "id": 1,
+        "slika": "assets/assets/img/about/2.jpg",
+        "godina": "Mart 2011",
+        "naslov": "Osnivanje agencije",
+        "opis": "M&M kao organizacija formalno postoji od 2011.  kada je par mladih entuzijasta nezadovoljnih klasičnim ponudama putovanja odlučilo da se posveti kreiranju putovanja i zabave koja bi zadovoljila potrebe ljudi u njihovom uzrastu. "
+    },
+    {
+        "id": 2,
+        "slika": "assets/assets/img/about/3.jpg",
+        "godina": "Decembar 2012",
+        "naslov": "Danas",
+        "opis": "Kao osnivači omladinskog turizma u Srbiji i kao agencija koja predstavlja LIDERA u organizovanju omladinskih putovanja u celom regionu, imali smo tu čast da nam je preko 200.000 mladih ljudi ukazalo svoje poverenje  u proteklih 15 godina!"
+    },
+    {
+        "id": 3,
+        "slika": "assets/assets/img/about/4.jpg",
+        "godina": "Jul 2014",
+        "naslov": "Faza 2 - Proširenje",
+        "opis": " Danas agencija posluje u više segmenata, a odlučila je da na svoju listu doda još jedan. WORK & TRAVEL - sektor turističke agencije koji omogućava upoznavanje sa značajem programa kulturne razmene, stručne prakse, radnih programa u Americi i širom sveta, kao i značaj usavršavanja stranih jezika."
+    }
+]

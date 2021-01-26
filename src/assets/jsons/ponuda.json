@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "naziv":"Grčka apartmani",
+        "slika": "/assets/assets/img/portfolio/a.jpg",
+        "opis": "Kalitea se nalazi na oko 90km od Soluna i jedno je od najpoznatijih letovališta Severne Grčke. Dobila je ime po grčkoj reči 'Kalithea' što u prevodu znači lep pogled tj. vidikovac. Mesto je poznato po divnim peščanim plažama, tirkiznoj vodi, kafeima na litici sa kojih se pruža nezaboravan pogled na zaliv Toroneos i poluostrvo Sitoniju.",
+        "cena": 139,
+        "kategorija": "Leto"
+    },
+    {
+        "id":2,
+        "naziv":"Krakov- doček 2021.",
+        "slika": "/assets/assets/img/portfolio/8.jpg",
+        "opis": "Krakov se nalazi na obalama reke Visle. i poput ovog dela Poljske, smatra se srcem zemlje jer obiluje bogatim kulturno-istorijskim nasleđem. Netaknut u II Svetskom ratu, stari deo grada prepun crkvi i muzeja, u kome dominira kraljevski dvorac Vavel, koji podseća na slavne dane viševekovnog sedišta poljskih kraljeva. Krakov je prvi grad u svetu čiji je istorijski centar stavljen na UNESCO – listu svetske baštine. Osim značajnih mesta u samom gradu koje treba posetiti, nedaleko se nalazi i rudnik soli Velička, kao i ozloglašeni koncentracioni logor Auschwitz koji je obeležio mračnu istoriju XX veka.",
+        "cena": 150,
+        "kategorija": "Nova Godina"
+    },
+    {
+        "id":3,
+        "naziv":"Krakov- doček 2021.",
+        "slika": "/assets/assets/img/portfolio/11.jpg",
+        "opis": "Da li zbog brojnih legendi koje se vezuju za ovaj grad ili zbog njegovog šarma i lepote, tek Krakov s pravom nazivaju magičnim gradom starog kontinenta.",
+        "cena": 144,
+        "kategorija": "Nova Godina"
+    },
+    {
+        "id":4,
+        "naziv":"Italija hoteli",
+        "slika": "/assets/assets/img/portfolio/d.jpg",
+        "opis": "Objekat Domus Trevi nalazi se u srcu Rima, na samo 100 metara od svetski poznate Fontane di Trevi. Smešten je u zgradi iz 16. veka i ima elegantno nameštene sobe sa flat-screen TV-om.",
+        "cena": 272,
+        "kategorija": "Leto"
+    },
+    {
+        "id":5,
+        "naziv":"Skijanje Kopaonik",
+        "slika": "/assets/assets/img/portfolio/5.jpg",
+        "opis": "Vila MujEn objedinjuje uslugu sa arhitekturom i prijatnim enterijerom koji odišu toplinom. Stil i opremljenost apartmana garantuju Vam odmor i komfor ...",
+        "cena": 90,
+        "kategorija": "Skijanje"
+    },
+    {
+        "id":6,
+        "naziv":"Italija apartmani",
+        "slika": "/assets/assets/img/portfolio/m.jpg",
+        "opis": "Nalazi se u Rivabella, Rimini, oko 200m od stanice gradskog autobusa. Hotel se nalazi uz samu plažu. Ležaljke i suncobrani se naplaćuju. sluga u hotelu Iones je po izboru, noćenje sa doručkom ili polupansion  – doručak “švedski sto” (samoposluživanje), večera fiksni meni  uz izbor salata sa švedskog stola. Hotel pored standardne polupansion usluge nudi i uslugu polupansion plus, sa uključenim pićima uz obroke (1/2l vode i 1/4l vina po odrasloj osobi), kao i setom od dve ležaljke i suncobranom, po sobi, na hotelskom delu plaže).",
+        "cena": 215,
+        "kategorija": "Leto"
+    },
+    {
+        "id":7,
+        "naziv":"Grčka hoteli",
+        "slika": "/assets/assets/img/portfolio/g.jpg",
+        "opis": " Hotel Delphi se nalazi na samoj obali, udaljen 2.5km od sela Eratrini, između mesta Galaxidi i Nafpaktos. Aerodrom se nalazi na 100km, a Atina na 220km od hotela. Sadržaj: recepcija 24h, bazen, ležaljke i suncobrani pored bazena i na plaži besplatno, dečji bazen, suvenirnica, mini market, restoran, animacije za decu, mini klub, igralište za decu, stoni tenis, tereni za košarku, tenis, odbojku na pesku, sportovi na vodi, časovi ronjenja, konferencijska sala. Usluga: all inclusive (sve uključeno)",
+        "cena": 199,
+        "kategorija": "Leto"
+    },
+    { 
+        "id":8,
+        "naziv":"Istanbul- doček 2021.",
+        "slika": "/assets/assets/img/portfolio/17.jpg",
+        "opis": "Moćni Carigrad, Konstantinopolj, Vizantion, Istanbul! Grad koji leži na dva kontinenta koja razdvaja magični Bosfor. Burna istorija ostavila je iza sebe ogromno kulturno i istorijsko nasleđe koje danas privlači na milione turista koji pohode ovaj grad. Srce grada čini četvrt Sultanahmet i Zlatni rog na Bosforu gde se gotovo svaki spomenik nalazi pod zaštitom UNESCO-a. Vekovna prestonica Istočnog Rimskog Carstva, Vizantije, potom vekovna prestonica Otomanske Imperije koja je gotovo svaki spomenik Hrišćanstva prekrojila i pretvorila u orijentalne objekte. Vizura grada je neverovatna, sa brojnim minaretima i divnim raskošnim palatama. A tek priče! Priče o ovom gradu su beskrajne, vanvremenske, bajkovite… Mirisi orijentalnih začina sa Misir pijace, živopisnost Kapali čaršije – najvećeg orijentalnog bazara na svetu, zapanjujuća lepota Plave džamije, misterija cisterne, priče Topkapija, raskoš Dolmabahče palate… Samo su mali deo ovog ogromnog grada! Zakoračite sa nama na kaldrmu sećanja…",
+        "cena": 165,
+        "kategorija": "Nova Godina"
+    },
+    {
+        "id":9,
+        "naziv":"Skijanje Kopaonik",
+        "slika": "/assets/assets/img/portfolio/2.jpg",
+        "opis": "Vila Nika Kopaonik, nalazi se u strogom centru, u neposrednoj blizini staze Karaman i hotela Grand. Vila Nika ima 5 komfornih apartmana.",
+        "cena": 65,
+        "kategorija": "Skijanje"
+    },
+    {
+        "id":10,
+        "naziv":"Grčka apartmani",
+        "slika": "/assets/assets/img/portfolio/j.jpg",
+        "opis": "Hanioti – se nalazi na 105 km od Soluna, na prvom prstu poluostrva Halkidiki. Skriveni raj među četinarima, uz samu obalu kristalno čistog mora. Ovo ekskluzivno mesto odiše kosmopolitskom atmosferom.",
+        "cena": 139,
+        "kategorija": "Leto"
+    },
+    {
+        "id":11,
+        "naziv":"Bali hoteli",
+        "slika": "/assets/assets/img/portfolio/s.jpg",
+        "opis": "Objekat Meruhdani Boutique Hotel Ubud nudi smeštaj sa restoranom, besplatnim privatnim parkingom, barom i vrtom u Ubudu, na 300 metara od Hrama Sarasvati.",
+        "cena": 1230,
+        "kategorija": "Leto"
+    },
+    {
+        "id":12,
+        "naziv":"Bali apartmani",
+        "slika": "/assets/assets/img/portfolio/o.jpg",
+        "opis": "Naš kraljevski apartman predstavlja savršeni beg za dvoje. Ukrašen mekanom svilenom posteljinom i toplim zemljanim bojama, relaksirajući ambijent apartmana učiniće Vaš boravak u smeštaju pravim uživanjem...",
+        "cena": 1189,
+        "kategorija": "Leto"
+    }
+]

@@ -1,0 +1,40 @@
+<section class="page-section" id="services">
+  <br/>
+  <br/>
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Početna</h2>
+            <h3 class="section-subheading text-muted">VIŠE OD PUTOVANJA – M&M TRAVEL</h3>
+        </div>
+        <div class="row text-center">
+            <p>Dobrodošli u svet nezaboravnih putovanja, fantastičnih žurki i vrhunskog provoda. Dobrodošli u svet u kome su granice klasične organizacije putovanja odavno pomerene, svet u kome se postavljaju do sada neviđeni standardi dobre zabave, svet u kome se emocije i uspomene mere u tonama... Ukratko, dobrodošli u M&M svet! :)</p>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-umbrella-beach fa-stack-1x fa-inverse"></i></span>
+                <h4 class="my-3">LETOVANJA</h4>
+                <p class="text-muted">Očekuju vas najpoznatije destinacije u Grčkoj.</p>
+                <button (click)="isButtonToggle(1)" class="btn btn-primary btn-xl text-uppercase" id="toShow" type="submit" >Više</button>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-glass-cheers fa-stack-1x fa-inverse"></i></span>
+                <h4 class="my-3">NOVA GODINA</h4>
+                <p class="text-muted">Zamisli želju, ostvari je sa nama i u Novoj Godini.</p>
+                <button (click)="isButtonToggle(2)" class="btn btn-primary btn-xl text-uppercase" id="toShow" type="submit" >Više</button>               
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-snowboarding fa-stack-1x fa-inverse"></i></span>
+                <h4 class="my-3">SKIJANJE</h4>
+                <p class="text-muted">Sa nama skijanje dobija totalno novu dimenziju!</p>
+                <button (click)="isButtonToggle(3)" class="btn btn-primary btn-xl text-uppercase" id="toShow" type="submit">Više</button>
+            </div>
+            <div id="content">
+            <div class="card-body" *ngIf="buttonClicked1">Zakintos, Kavos, Lefkada, Evija, Sidari, kao i razna iznenađenja i nove destinacije, koje će za sada ostati tajna! Spremite se za pravo party letovanje, za 11 dana neprestane zabave, jer nas svaki dan očekuju razni fakultativni izleti, obilasci, akvaparkovi, krstarenja, žurke na brodu, na bazenu, Igre bez granica na pesku sa primamljivim poklonima, a svako veče lude žurke do jutra u raznim klubovima na destinaciji! Tempo ne sme pasti!</div>
+            <div class="card-body" *ngIf="buttonClicked2">Kad pomisliš na nezaboravnu Novu Godinu, definitivno pomisliš na #Krakovanje! Ovaj najpoznatiji studentski grad i nekadašnja prestonica Poljske se za vreme novogodišnjih praznika pretvara u grad iz bajke!
+                Osetite prazničnu atmosferu na glavnom trgu – Rynek, koji je drugi po veličini u Evropi, probajte neke od brojnih poljskih specijaliteta, kupite suvenir u čuvenoj hali Sukienice, obiđite harizmatičnu jevrejsku četvrt Kazimierc i najpoznatiji simbol grada - uzvišenje Vavel sa istoimenim zamkom na vrhu, koji se prostire iznad reke Visle.
+                Biti u Krakovu, a ne otići do Aušvica i rudnika soli Vjelička je gotovo nezamislivo, a mi ćemo imati priliku da ih obiđemo u sklopu naših fakultativnih izleta!
+                Obavezno sačuvajte energiju za veče, jer nas očekuju 3 nezaboravne žurke (zagrevanje, doček Nove Godine i repriza) u najpoznatijim noćnim kubovima Krakova!
+                Imaćete priliku da se uverite zašto sa nama noć traje duže…</div>
+            <div class="card-body" *ngIf="buttonClicked3">Spoj vašeg omiljenog sporta na snegu, adrenalina, Sunca, mladih ljudi, vrhunskih žurki i nezaboravnog provoda. U ponudi imamo  najpopularnija skijališta Evrope: Les2Alpes, Tignes, Alpe D Huez, Valmeinier, 3 doline, Orcieres, Serre Chevalier, Bansko, Paradiski, Espace Killy...</div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+<section class="izbor">
+    <br/>
+        <div *ngIf="put" class="putovanja">
+            <div class="put">
+                <h4 class="naslov">{{put.naziv}} </h4><br>
+                <p>Cena: {{put.cena}} &euro;</p><hr>
+                <img src="{{put.slika}}" ><br><br>
+                <p>Kategorija: {{put.kategorija}} </p><hr>
+                <p class="pasus">{{put.opis}}</p>
+                <div class="nazad">
+                <a href="/ponuda"><button class="btn btn-primary btn-xl text-uppercase">Nazad</button></a>
+                </div>
+            </div>
+        </div>
+</section>

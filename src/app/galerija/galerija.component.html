@@ -1,0 +1,174 @@
+<section class="page-section bg-light" id="portfolio">
+  <br/>
+  <br/>
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Galerija</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"
+                        ><div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/assets/img/portfolio/g.jpg" alt=""
+                    /></a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Grčka</div>
+                        <div class="portfolio-caption-subheading text-muted">Leto 2019</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"
+                        ><div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/assets/img/portfolio/o.jpg" alt=""
+                    /></a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Italija</div>
+                        <div class="portfolio-caption-subheading text-muted">Leto 2019</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"
+                        ><div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/assets/img/portfolio/1.jpg" alt=""
+                    /></a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Kopaonik</div>
+                        <div class="portfolio-caption-subheading text-muted">Skijanje 2019</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"
+                        ><div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/assets/img/portfolio/7.jpg" alt=""
+                    /></a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Krakov</div>
+                        <div class="portfolio-caption-subheading text-muted">Nova Godina 2020</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"
+                        ><div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/assets/img/portfolio/h.jpg" alt=""
+                    /></a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Bali</div>
+                        <div class="portfolio-caption-subheading text-muted">Leto 2019</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6"
+                        ><div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/assets/img/portfolio/19.jpg" alt=""
+                    /></a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Istanbul</div>
+                        <div class="portfolio-caption-subheading text-muted">Nova Godina 2019</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><img src="assets/assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <ngx-gallery [options]="galleryOptions" [images]="galleryImages1"></ngx-gallery>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 2-->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><img src="assets/assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                     <ngx-gallery [options]="galleryOptions" [images]="galleryImages2"></ngx-gallery>    
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 3-->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><img src="assets/assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                            <ngx-gallery [options]="galleryOptions" [images]="galleryImages3"></ngx-gallery>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 4-->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><img src="assets/assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <ngx-gallery [options]="galleryOptions" [images]="galleryImages4"></ngx-gallery>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 5-->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><img src="assets/assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <ngx-gallery [options]="galleryOptions" [images]="galleryImages5"></ngx-gallery>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 6-->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><img src="assets/assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <ngx-gallery [options]="galleryOptions" [images]="galleryImages6"></ngx-gallery>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

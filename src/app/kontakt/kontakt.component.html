@@ -1,0 +1,55 @@
+<section class="page-section" id="contact">
+  <br/>
+  <br/>
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Naša adresa</h2>
+            <p class="section-heading text-uppercase">
+                Dunavska 33<br>
+                Palilula<br>
+                BEOGRAD<br>
+                <i class="fa fa-phone"></i>: +381 64 1234 567<br>
+                <i class="fa fa-fax"></i>: +381 69 8765 432<br>
+                <i class="fa fa-envelope"></i>: 
+                <a href="miljana.m@agency.com">m@agency.com</a>
+            </p>
+        </div>
+        <br/>
+        <br/>
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Kontaktirajte nas</h2>
+            <h3 class="section-subheading text-muted">Za više informacija posaljite nam poruku</h3>
+        </div>
+        <form action="" method="post" role="form" id="contactForm" [formGroup]="contactForm" (ngSubmit)="onFormSubmit()">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="ime" type="text" name="ime" placeholder="Ime *" formControlName="ime" #ime (input)="onIme($event)"/>
+                        <div *ngIf="!contactForm.get('ime').valid && contactForm.get('ime').touched">
+                        <p class="help-block text-danger">Molim Vas unesite Vaše ime.</p></div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="email" type="email" name="email" placeholder="Email *" formControlName="email" #email/>
+                        <div *ngIf="!contactForm.get('email').valid && contactForm.get('email').touched">
+                        <p class="help-block text-danger">Molim Vas unesite Vaš email.</p></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <textarea class="form-control" id="poruka" name="poruka" placeholder="Poruka *" formControlName="poruka" #poruka></textarea>
+                        <div *ngIf="!contactForm.get('poruka').valid && contactForm.get('poruka').touched">
+                        <p class="help-block text-danger">Molim Vas unesite Vašu poruku.</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div id="success"></div>
+                <button class="btn btn-primary btn-xl text-uppercase" type="submit" [disabled]="!contactForm.valid">Pošalji</button>
+            </div>
+            <hr>
+            <div [@showHide]="isMessageDisplayed" class="alert alert-success">
+               <p> {{name}}, poruka je uspešno poslata.</p>
+            </div>
+        </form>
+    </div>
+</section>

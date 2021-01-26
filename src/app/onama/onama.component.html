@@ -1,0 +1,27 @@
+<section class="page-section" id="about">
+  <br/>
+  <br/>
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">O nama</h2>
+            <h3 class="section-subheading text-muted">Dobrodošli u svet nezaboravnih putovanja, fantastičnih žurki i vrhunskog provoda.</h3>
+        </div>
+        <ul class="timeline">
+            <li *ngFor="let o of onama" [ngClass]="{'timeline-inverted':o.id === 1 || o.id === 3}">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{o.slika}}" alt="{{o.naslov}}" /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>{{o.godina}}</h4>
+                        <h4 class="subheading">{{o.naslov | uppercase}}</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">{{o.opis}}</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>Budi deo<br />naše<br />priče!</h4>
+                </div>
+            </li> 
+        </ul>
+    </div>
+</section>

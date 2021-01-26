@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "slika": "/assets/assets/img/team/1.jpg",
+        "ime": "Helena Savić",
+        "opis": "SRBIJA"
+    },
+    {
+        "id": 1,
+        "slika": "/assets/assets/img/team/2.jpg",
+        "ime": "Serhio Markes",
+        "opis": "EVROPSKI GRADOVI"
+    },
+    {
+        "id": 2,
+        "slika": "/assets/assets/img/team/3.jpg",
+        "ime": "Ina Kono",
+        "opis": "DALEKE I EGZOTIČNE DESTINACIJE"
+    }
+]

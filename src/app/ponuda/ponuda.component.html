@@ -1,0 +1,35 @@
+<section class="page-section">
+    <br/>
+    <br/>
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Ponuda</h2>
+            <br/>
+            <br/>
+        </div>
+        <div class="left">
+            <h3 class="section-subheading text-muted">Pretraži po kategoriji putovanja(leto, nova godina, skijanje...)</h3>
+        </div>
+        <div class="right">
+            <input type="text" [(ngModel)]="searchText" placeholder="Pretraži">
+        </div>
+        <br/>
+        <br/>
+        <hr>       
+        <div class="putovanja">
+           <div [@stanje]="pokret" *ngFor="let putovanje of ponuda | ponudaAranzmana:searchText:'kategorija'; let index=index" >
+            <a [routerLink]="['/ponuda', putovanje.id]"> 
+
+                <div class="put">
+                    <img src="{{putovanje.slika}}">
+                    <h4>{{putovanje.naziv}} </h4><br><br>
+                    <p> {{putovanje.cena}} &euro;</p><br><hr>
+                    <p>{{putovanje.kategorija}} </p>
+                </div>
+            </a>
+            </div>
+        </div>   
+    </div>
+</section>
+
+
